@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="tr">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>404 - Page Not Found | Oğuzhan Şentürk</title>
+    <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="error-page">
+        <div class="error-code">
+          <span class="code-decoration">&lt;/&gt;</span>
+          <h1>404</h1>
+          <div class="error-message">
+            <p>Oops! Looks like you've encountered a bug.</p>
+            <p class="error-details">
+              The page you're looking for doesn't exist or has been moved.
+            </p>
+          </div>
+          <div class="error-suggestion">
+            <p>Try these solutions:</p>
+            <ul>
+              <li>
+                <i class="fas fa-arrow-right"></i> Check the URL for typos
+              </li>
+              <li>
+                <i class="fas fa-arrow-right"></i> Go back to the
+                <a href="/">homepage</a>
+              </li>
+              <li>
+                <i class="fas fa-arrow-right"></i> Contact me if you think this
+                is a bug
+              </li>
+            </ul>
+          </div>
+          <div class="error-animation">
+            <div class="code-block">
+              <span class="line">if (page.exists()) {</span>
+              <span class="line"> return page;</span>
+              <span class="line">} else {</span>
+              <span class="line"> return 404;</span>
+              <span class="line">}</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
